@@ -57,6 +57,7 @@ int main(void)
             angle = glm::radians(i);
             x = cos(angle);
             y = sin(angle);
+
             glVertex2f(x, y);
         }
         glEnd();
